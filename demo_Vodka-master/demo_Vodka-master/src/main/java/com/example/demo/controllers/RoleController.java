@@ -20,4 +20,11 @@ public class RoleController {
         model.addAttribute("listRole",listRole);
         return  "role";
     }
+
+    @GetMapping("/test")
+    public String getTest(){
+
+        return "test";
+    }
+
 }
